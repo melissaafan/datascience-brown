@@ -1,0 +1,14 @@
+t.test(Dominos$Time, alternative = "less", mu=173.92)
+t.test(Dominos$Time, mu=173.92)
+
+#Initial Hypothesis: There is no reduction in the Drive-Thru time after implementingthe new processes
+#Alternative Hypothesis result: true mean is less than 173.92
+#P-Value: 7.83e-05
+#Confidence Interval: -Inf 164.7089
+
+#Second T-Test
+#Alternative Hypothesis result: true mean is not equal to 173.92
+#P-Value: 0.0001566
+#Confidence Interval: 151.6632 165.9148
+
+#Mean of Both Tests: 158.789
